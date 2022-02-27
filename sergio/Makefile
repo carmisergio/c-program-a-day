@@ -11,3 +11,7 @@ inefficientprimes: inefficientprimes.c
 	mkdir -p build
 	gcc inefficientprimes.c -o build/inefficientprimes
 
+excommunicado: excommunicado.c
+	mkdir -p build
+	gcc excommunicado.c -o build/excommunicado
+
