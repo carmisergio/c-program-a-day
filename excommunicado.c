@@ -2,11 +2,14 @@
  * Filename: excommunicado.c
  * Description: A Program that simulates sending a John Wick excommunicado.
  * Author: Sergio Carmine <me@sergiocarmi.net>
- * Created: 26/02/2022
+ * Created: 27/02/2022
 ********************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+
+#define true 1
+#define false 0
 
 /********************************************************************************
  * Prints random sending message with random numbers

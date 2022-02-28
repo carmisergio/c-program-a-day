@@ -1,4 +1,4 @@
-all: helloworld inefficientprimes
+all: helloworld inefficientprimes excommunicado random
 
 clean:
 	rm -r build
@@ -14,4 +14,8 @@ inefficientprimes: inefficientprimes.c
 excommunicado: excommunicado.c
 	mkdir -p build
 	gcc excommunicado.c -o build/excommunicado
+
+random: random.c
+	mkdir -p build
+	gcc random.c -o build/random
 
