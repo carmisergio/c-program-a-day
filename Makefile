@@ -1,4 +1,4 @@
-all: helloworld inefficientprimes excommunicado random
+all: helloworld inefficientprimes excommunicado random squaremeters
 
 clean:
 	rm -r build
@@ -18,4 +18,8 @@ excommunicado: excommunicado.c
 random: random.c
 	mkdir -p build
 	gcc random.c -o build/random
+	
+squaremeters: squaremeters.c
+	mkdir -p build
+	gcc squaremeters.c -o build/squaremeters
 
