@@ -1,4 +1,4 @@
-all: helloworld inefficientprimes excommunicado random squaremeters
+all: helloworld inefficientprimes excommunicado random squaremeters simplebelubasay
 
 clean:
 	rm -r build
@@ -23,3 +23,6 @@ squaremeters: squaremeters.c
 	mkdir -p build
 	gcc squaremeters.c -o build/squaremeters
 
+simplebelubasay: simplebelubasay.c
+	mkdir -p build
+	gcc simplebelubasay.c -o build/simplebelubasay
