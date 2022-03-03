@@ -2,7 +2,7 @@
  * Filename: belubasay.c
  * Description: A Program that prints a beluba that says something stooopid.
  * Author: Sergio Carmine <me@sergiocarmi.net>
- * Created: 27/02/2022
+ * Created: 02/03/2022
 ********************************************************************************/
 #include <stdio.h>
 #include <string.h>
