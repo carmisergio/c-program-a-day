@@ -30,3 +30,7 @@ simplebelubasay: simplebelubasay.c
 belubasay: belubasay.c
 	mkdir -p build
 	gcc belubasay.c -o build/belubasay
+
+taxcalc: taxcalc.c
+	mkdir -p build
+	gcc taxcalc.c -o build/taxcalc
