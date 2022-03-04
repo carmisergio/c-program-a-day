@@ -62,6 +62,9 @@ int main(int argc, char *argv[]) {
     strcpy(string, "Pezzo di meddaaa!");
   }
 
+  // Get string length
+  string_length = strlen(string);
+
   // If the string is shorter than what we can show, pad it
   if(string_length < 60) {
     
@@ -69,6 +72,8 @@ int main(int argc, char *argv[]) {
     left_pad = (60 - strlen(string)) / 2;
     right_pad = left_pad;
     // Add one to the right padding if the thing is not even
+    int thingy = string_length % 2;
+    printf("modulo: %d, length: %d\n", thingy, string_length);
     if(string_length % 2 != 0) right_pad++;
     
     // Pad left
