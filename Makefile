@@ -1,4 +1,4 @@
-all: helloworld inefficientprimes excommunicado random squaremeters simplebelubasay belubasay
+all: helloworld inefficientprimes excommunicado random squaremeters simplebelubasay belubasay 2degequ
 
 clean:
 	rm -r build
@@ -34,3 +34,7 @@ belubasay: belubasay.c
 taxcalc: taxcalc.c
 	mkdir -p build
 	gcc taxcalc.c -o build/taxcalc
+
+2degequ: 2degequ.c
+	mkdir -p build
+	gcc 2degequ.c -lm -o build/2degequ
