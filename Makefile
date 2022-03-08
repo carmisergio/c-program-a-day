@@ -1,4 +1,4 @@
-all: helloworld inefficientprimes excommunicado random squaremeters simplebelubasay belubasay 2degequ isprime
+all: helloworld inefficientprimes excommunicado random squaremeters simplebelubasay belubasay 2degequ isprime biggest
 
 clean:
 	rm -r build
@@ -42,3 +42,7 @@ taxcalc: taxcalc.c
 isprime: isprime.c
 	mkdir -p build
 	gcc isprime.c -o build/isprime
+
+biggest: biggest.c
+	mkdir -p build
+	gcc biggest.c -o build/biggest
