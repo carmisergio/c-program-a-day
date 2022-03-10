@@ -1,4 +1,4 @@
-all: helloworld inefficientprimes excommunicado random squaremeters simplebelubasay belubasay 2degequ isprime biggest
+all: helloworld inefficientprimes excommunicado random squaremeters simplebelubasay belubasay 2degequ isprime biggest liebnizpi
 
 clean:
 	rm -r build
@@ -46,3 +46,7 @@ isprime: isprime.c
 biggest: biggest.c
 	mkdir -p build
 	gcc biggest.c -o build/biggest
+
+liebnizpi: liebnizpi.c
+	mkdir -p build
+	gcc liebnizpi.c -o build/liebnizpi
